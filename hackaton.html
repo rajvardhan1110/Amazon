@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm-to-Consumer Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #7fad39; /* Green */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff; /* White */
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333; /* Dark Gray */
+            color: #fff; /* White */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farm-to-Consumer Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Our Farm-to-Consumer Platform</h2>
+        <p>Connecting farmers directly with consumers for the efficient and fair distribution of fresh produce.</p>
+    </section>
+
+    <section id="products" class="section">
+        <h2>Available Produce</h2>
+        <div id="product-list">
+            <!-- Product listings will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+            <label for="product">Select Product:</label>
+            <select id="product" name="product">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <!-- Add more options as needed -->
+            </select>
+            <label for="quantity">Quantity (kg):</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Farm-to-Consumer Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>

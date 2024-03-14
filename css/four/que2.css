@@ -1,0 +1,23 @@
+#box{
+    display: inline-block;
+    height:50px;
+    width:900px;
+    border:2px solid rgb(26, 110, 146);
+    border-radius:4px;
+    background-color:rgb(236, 116, 178);
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:center;
+    
+}
+
+.obj{
+    display:inline-block;
+    height:50px;
+    width:80px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}

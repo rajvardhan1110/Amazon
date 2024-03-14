@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza shop</title>
+</head>
+<body>
+    <table border="black">
+        <tr >
+          <th colspan="2">PIZZA SHOP 2.0 </th>
+        </tr>
+        <tr>
+           <td> Name</td>
+           <td> 
+             <form>
+                <input type="text" placeholder="      ">
+             </form>
+           </td>
+        </tr>
+        <tr>
+            <td> Pizza topping</td>
+            <td><form>
+                <label for="f1">
+                    <input type="radio" value="Supreme" name="food" id="f1"> Supreme
+                </label> <br>
+                <label for="f2">
+                    <input type="radio" value="Vegetarian" name="food" id="f2"> Vegetarian
+                </label> <br>
+                <label for="f3">
+                    <input type="radio" value="Hawaiin" name="food" id="f3"> Hawaiin
+                </label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select name="sauce" id="sauce">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Alfredo">Alfredo</option>
+                    <option value="Garlice">Garlice</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Optional Extras</td>
+            <td> 
+                <form> 
+                    <label for="op1">
+                        <input type="checkbox" value="Extra Cheese" class="option" name="op" id="op1">Extra Cheese
+                    </label>
+                    <label for="op2">
+                        <input type="checkbox" value="Gluten Free" class="option" name="op" id="op2"> Gluten Free
+                    </label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Delivery instruction: <br>
+                <textarea name="instuction" id="di" rows="3">
+                </textarea>
+             </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+              <button>Send my Order</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
